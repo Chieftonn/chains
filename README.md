@@ -1,4 +1,4 @@
-![Hyperbit Chains Banner](https://github.com/hyperbit-dev/chains/raw/master/media/repo-banner.png)
+![Hyperbit Chains Banner](https://github.com/git-infinianti/chains/raw/master/media/repo-banner.png)
 
 # Hyperbit - Chains
 
@@ -7,19 +7,19 @@ JavaScript dictionary of blockchain specifications inspired from coinkey with ad
 ## Installation
 
 ```bash
-npm install @hyperbitjs/chains
+npm install @git-infinianti/chains
 ```
 
 ## Usage
 
 ```javascript
-import { chains } from '@hyperbitjs/chains';
+import { chains } from '@git-infinianti/chains';
 
 const { main, test } = chains.btc;
 ```
 
 ```javascript
-import { btc } from '@hyperbitjs/chains';
+import { btc } from '@git-infinianti/chains';
 
 const { main, test } = btc;
 ```
@@ -50,7 +50,7 @@ btc: {
 You can pass in your desired coin to make it compatible with [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) or [bitcore](https://github.com/bitpay/bitcore) by making use of to additional utility functions.
 
 ```javascript
-import { btc, toBitcoinJS, toBitcore } from '@hyperbitjs/chains';
+import { btc, toBitcoinJS, toBitcore } from '@git-infinianti/chains';
 
 const { main, test } = btc;
 
@@ -77,34 +77,34 @@ If you're interested in contributing, please read the [contributing docs](https:
 
 | **Symbol** | **Coin**                                                                             | **Supported** |
 |------------|--------------------------------------------------------------------------------------|---------------|
-| BTC        | [Bitcoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/btc.ts)      | Yes           |
-| LTC        | [Litecoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/ltc.ts)     | Yes           |
-| DOGE       | [Dogecoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/doge.ts)    | Yes           |
-| RDD        | [Reddcoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/rdd.ts)     | Yes           |
-| DASH       | [Dash](https://github.com/hyperbit-dev/chains/blob/master/src/chains/dash.ts)        | Yes           |
-| PPC        | [Peercoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/ppc.ts)     | Yes           |
-| NMC        | [Namecoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/nmc.ts)     | Yes           |
-| FTC        | [Feathercoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/ftc.ts)  | Yes           |
+| BTC        | [Bitcoin](https://github.com/git-infinianti/chains/blob/master/src/chains/btc.ts)    | Yes           |
+| LTC        | [Litecoin](https://github.com/git-infinianti/chains/blob/master/src/chains/ltc.ts)   | Yes           |
+| DOGE       | [Dogecoin](https://github.com/git-infinianti/chains/blob/master/src/chains/doge.ts)  | Yes           |
+| RDD        | [Reddcoin](https://github.com/git-infinianti/chains/blob/master/src/chains/rdd.ts)   | Yes           |
+| DASH       | [Dash](https://github.com/git-infinianti/chains/blob/master/src/chains/dash.ts)      | Yes           |
+| PPC        | [Peercoin](https://github.com/git-infinianti/chains/blob/master/src/chains/ppc.ts)   | Yes           |
+| NMC        | [Namecoin](https://github.com/git-infinianti/chains/blob/master/src/chains/nmc.ts)   | Yes           |
+| FTC        | [Feathercoin](https://github.com/git-infinianti/chains/blob/master/src/chains/ftc.ts)| Yes           |
 | XCP        | Counterparty                                                                         |               |
-| BLK        | [Blackcoin]((https://github.com/hyperbit-dev/chains/blob/master/src/chains/blk.ts))  | Yes           |
+| BLK        | [Blackcoin]((https://github.com/git-infinianti/chains/blob/master/src/chains/blk.ts))| Yes           |
 | NSR        | NuShares                                                                             |               |
-| NBT        | [NuBits](https://github.com/hyperbit-dev/chains/blob/master/src/chains/nbt.ts)       | Yes           |
+| NBT        | [NuBits](https://github.com/git-infinianti/chains/blob/master/src/chains/nbt.ts)     | Yes           |
 | MZC        | Mazacoin                                                                             |               |
-| VIA        | [Viacoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/via.ts)      | Yes           |
+| VIA        | [Viacoin](https://github.com/git-infinianti/chains/blob/master/src/chains/via.ts)    | Yes           |
 | XCH        | ClearingHouse                                                                        |               |
 | RBY        | Rubycoin                                                                             |               |
-| GRS        | [Groestlcoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/grs.ts)  | Yes           |
+| GRS        | [Groestlcoin](https://github.com/git-infinianti/chains/blob/master/src/chains/grs.ts)| Yes           |
 | DGC        | Digitalcoin                                                                          |               |
 | CCN        | Cannacoin                                                                            |               |
-| DGB        | [DigiByte](https://github.com/hyperbit-dev/chains/blob/master/src/chains/dgb.ts)     | Yes           |
+| DGB        | [DigiByte](https://github.com/git-infinianti/chains/blob/master/src/chains/dgb.ts)   | Yes           |
 |            | Open Assets                                                                          |               |
-| MONA       | [Monacoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/mona.ts)    | Yes           |
+| MONA       | [Monacoin](https://github.com/git-infinianti/chains/blob/master/src/chains/mona.ts)  | Yes           |
 | CLAM       | Clams                                                                                |               |
 | XPM        | Primecoin                                                                            |               |
 | NEOS       | Neoscoin                                                                             |               |
 | JBS        | Jumbucks                                                                             |               |
 | ZRC        | ziftrCOIN                                                                            |               |
-| VTC        | [Vertcoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/vtc.ts)     | Yes           |
+| VTC        | [Vertcoin](https://github.com/git-infinianti/chains/blob/master/src/chains/vtc.ts)   | Yes           |
 | NXT        | NXT                                                                                  |               |
 | BURST      | Burst                                                                                |               |
 | MUE        | MonetaryUnit                                                                         |               |
@@ -118,7 +118,7 @@ If you're interested in contributing, please read the [contributing docs](https:
 | MOIN       | MOIN                                                                                 |               |
 | EXP        | Expanse                                                                              |               |
 | EMC2       | Einsteinium                                                                          |               |
-| DCR        | [Decred](https://github.com/hyperbit-dev/chains/blob/master/src/chains/dcr.ts)       | Yes           |
+| DCR        | [Decred](https://github.com/git-infinianti/chains/blob/master/src/chains/dcr.ts)     | Yes           |
 | XEM        | NEM                                                                                  |               |
 | PART       | Particl                                                                              |               |
 | ARG        | Argentum (dead)                                                                      |               |
@@ -192,7 +192,7 @@ If you're interested in contributing, please read the [contributing docs](https:
 | THC        | Hempcoin                                                                             |               |
 | LINX       | Linx                                                                                 |               |
 | ECN        | Ecoin                                                                                |               |
-| DNR        | [Denarius](https://github.com/hyperbit-dev/chains/blob/master/src/chains/dnr.ts)     | Yes           |
+| DNR        | [Denarius](https://github.com/git-infinianti/chains/blob/master/src/chains/dnr.ts)   | Yes           |
 | PINK       | Pinkcoin                                                                             |               |
 | ATOM       | Atom                                                                                 |               |
 | PIVX       | Pivx                                                                                 |               |
@@ -221,7 +221,7 @@ If you're interested in contributing, please read the [contributing docs](https:
 | BSQ        | bisq Token                                                                           |               |
 | RIC        | Riecoin                                                                              |               |
 | XRP        | Ripple                                                                               |               |
-| BCH        | [Bitcoin Cash](https://github.com/hyperbit-dev/chains/blob/master/src/chains/bch.ts) | Yes           |
+| BCH        | [BitcoinCash](https://github.com/git-infinianti/chains/blob/master/src/chains/bch.ts)| Yes           |
 | NEBL       | Neblio                                                                               |               |
 | ZCL        | ZClassic                                                                             |               |
 | XLM        | Stellar Lumens                                                                       |               |
@@ -251,8 +251,9 @@ If you're interested in contributing, please read the [contributing docs](https:
 | HTML       | HTMLCOIN                                                                             |               |
 | ODN        | Obsidian                                                                             |               |
 | ONX        | OnixCoin                                                                             |               |
-| RVN        | [Ravencoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/rvn.ts)    | Yes           |
-| EVR        | [Evrmore](https://github.com/hyperbit-dev/chains/blob/master/src/chains/evr.ts)      | Yes           |
+| RVN        | [Ravencoin](https://github.com/git-infinianti/chains/blob/master/src/chains/rvn.ts)  | Yes           |
+| EVR        | [Evrmore](https://github.com/git-infinianti/chains/blob/master/src/chains/evr.ts)    | Yes           |
+| FOXD       | [Foxdcoin](https://github.com/git-infinianti/chains/blob/master/src/chains/foxd.ts)  | Yes           |
 | GBX        | GoByte                                                                               |               |
 | BTCZ       | BitcoinZ                                                                             |               |
 | POA        | Poa                                                                                  |               |
@@ -1126,7 +1127,7 @@ If you're interested in contributing, please read the [contributing docs](https:
 | NEW        | Newton                                                                               |               |
 | BTA        | Btachain                                                                             |               |
 | BCX        | BitcoinX                                                                             |               |
-| MEWC       | [Meowcoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/mewc.ts)    | Yes           |
+| MEWC       | [Meowcoin](https://github.com/git-infinianti/chains/blob/master/src/chains/mewc.ts)  | Yes           |
 | XTZ        | Tezos                                                                                |               |
 | LBTC       | Liquid BTC                                                                           |               |
 | BBP        | Biblepay                                                                             |               |
@@ -1139,7 +1140,7 @@ If you're interested in contributing, please read the [contributing docs](https:
 | XEC        | eCash token                                                                          |               |
 | CLC        | Classica                                                                             |               |
 | VIPS       | VIPSTARCOIN                                                                          |               |
-| CITY       | [City Coin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/city.ts)   | Yes           |
+| CITY       | [City Coin](https://github.com/git-infinianti/chains/blob/master/src/chains/city.ts) | Yes           |
 | XX         | xx coin                                                                              |               |
 | XMX        | Xuma                                                                                 |               |
 | TRTL       | TurtleCoin                                                                           |               |
@@ -1172,7 +1173,7 @@ If you're interested in contributing, please read the [contributing docs](https:
 | CHZ        | Chiliz                                                                               |               |
 | ASK        | ASK                                                                                  |               |
 |            | Qiyi Chain                                                                           |               |
-| QTUM       | [QTUM](https://github.com/hyperbit-dev/chains/blob/master/src/chains/qtum.ts)        | Yes           |
+| QTUM       | [QTUM](https://github.com/git-infinianti/chains/blob/master/src/chains/qtum.ts)      | Yes           |
 | ETP        | Metaverse                                                                            |               |
 | GXC        | GXChain                                                                              |               |
 | CRP        | CranePay                                                                             |               |
@@ -1261,7 +1262,7 @@ If you're interested in contributing, please read the [contributing docs](https:
 | MTR        | Meter                                                                                |               |
 | SAFE       | Safecoin                                                                             |               |
 | FLUX       | Flux                                                                                 |               |
-| RITO       | [Ritocoin](https://github.com/hyperbit-dev/chains/blob/master/src/chains/rito.ts)    | Yes           |
+| RITO       | [Ritocoin](https://github.com/git-infinianti/chains/blob/master/src/chains/rito.ts)  | Yes           |
 | XND        | ndau                                                                                 |               |
 | C4EI       | c4ei                                                                                 |               |
 | PCT        | Pactus                                                                               |               |
@@ -1287,7 +1288,7 @@ If you're interested in contributing, please read the [contributing docs](https:
 | GRLC       | Garlicoin                                                                            |               |
 | GWL        | Gewel                                                                                |               |
 | ZYN        | Wethio                                                                               |               |
-| RYO        | [c0ban](https://github.com/hyperbit-dev/chains/blob/master/src/chains/cbn.ts)        | Yes           |
+| RYO        | [c0ban](https://github.com/git-infinianti/chains/blob/master/src/chains/cbn.ts)      | Yes           |
 | WICC       | Waykichain                                                                           |               |
 | HOME       | HomeCoin                                                                             |               |
 | STC        | Starcoin                                                                             |               |
@@ -1301,7 +1302,7 @@ If you're interested in contributing, please read the [contributing docs](https:
 | PI         | Pi Network                                                                           |               |
 | VALUE      | Value Chain                                                                          |               |
 | 3333       | Pi Value Consensus                                                                   |               |
-| X42        | [x42](https://github.com/hyperbit-dev/chains/blob/master/src/chains/x42.ts)          | Yes           |
+| X42        | [x42](https://github.com/git-infinianti/chains/blob/master/src/chains/x42.ts)        | Yes           |
 | SCR        | Scroll                                                                               |               |
 | VITE       | Vite                                                                                 |               |
 | SEA        | Second Exchange Alliance                                                             |               |
