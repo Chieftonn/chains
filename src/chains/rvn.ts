@@ -12,7 +12,7 @@ const common: Common = {
 
 const main: Network = {
   ...common,
-  // https://github.com/RavenProject/Ravencoin/blob/master/src/chainparams.cpp#L411
+  // https://github.com/RavenProject/Ravencoin/blob/master/src/chainparams.cpp#L188
   hashGenesisBlock:
     '0000006b444bc2f2ffe627be9d9e7e7a0730000870ef6eb6da46c8eae389df90',
   // https://github.com/RavenProject/Ravencoin/blob/master/src/chainparams.cpp#L181
@@ -47,6 +47,7 @@ const main: Network = {
 
 const test: TestNetwork = {
   ...common,
+  // https://github.com/RavenProject/Ravencoin/blob/master/src/chainparams.cpp#L411
   hashGenesisBlock:
     '000000ecfc5e6324a079542221d00e10362bdc894d56500c414060eea8a3ad5a',
   port: 18770,
