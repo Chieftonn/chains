@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -32,7 +32,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@hyperbitjs/chains",
+  "name": "@Chieftonn/hyperbitjs/chains",
   "repository": {
     "type": "git",
     "url": "https://github.com/Chieftonn/chains.git"
