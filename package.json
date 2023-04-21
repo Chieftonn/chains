@@ -35,9 +35,9 @@
   "name": "@hyperbitjs/chains",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hyperbit-dev/chains.git"
+    "url": "https://github.com/Chieftonn/chains.git"
   },
-  "homepage": "https://github.com/hyperbit-dev/chains/blob/master/README.md",
+  "homepage": "https://github.com/Chieftonn/chains/blob/master/README.md",
   "author": "Hyperbit",
   "module": "dist/chains.esm.js",
   "size-limit": [
