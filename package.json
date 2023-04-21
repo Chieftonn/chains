@@ -32,7 +32,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@Chieftonn/hyperbitjs/chains",
+  "name": "@chieftonn/hyperbitjs/chains",
   "repository": {
     "type": "git",
     "url": "https://github.com/Chieftonn/chains.git"
