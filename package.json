@@ -32,7 +32,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@git-infinianti/hyperbitjs/chains",
+  "name": "@npm_infinianti/chains",
   "repository": {
     "type": "git",
     "url": "https://github.com/git-infinianti/chains.git"
